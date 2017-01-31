@@ -1,0 +1,117 @@
+1-----------------------------------		Cabine en 0
+//Utilisateur extérieur	étage 0
+	Appel 0M ---------------------- 	Utilisateur 1
+	Allumer bouton 0M
+	Appel 96C							Utilisateur 1
+	Monter
+	signal de franchissement de palier	Cabine en 1
+	signal de franchissement de palier	Cabine en 2
+	signal de franchissement de palier	Cabine en 3
+	signal de franchissement de palier	Cabine en 4
+	signal de franchissement de palier	Cabine en 5
+	
+	
+2-----------------------------------		Cabine en 6
+//Utilisateur extérieur	étage 6
+	Appel 6D ---------------------- 	Utilisateur 1
+	Allumer bouton 6D
+	Appel 0C							Utilisateur 1
+	Descendre
+	signal de franchissement de palier	Cabine en 5
+	signal de franchissement de palier	Cabine en 4
+	signal de franchissement de palier	Cabine en 3
+	signal de franchissement de palier	Cabine en 2
+	
+
+3-----------------------------------		Cabine en 5
+//Utilisateur extérieur	étage 5
+	Appel 5D ---------------------- 	Utilisateur 1
+	Allumer bouton 5D
+	Appel 3C							Utilisateur 1
+	Descendre
+	signal de franchissement de palier	Cabine en 4
+	signal de franchissement de palier	Cabine en 3
+	signal de franchissement de palier	Cabine en 3
+
+	
+	
+	
+4-----------------------------------		Cabine en 3
+//Utilisateur extérieur	étage 3
+	Appel 3M ---------------------- 	Utilisateur 1
+	Allumer bouton 3M
+	Appel 5C							Utilisateur 1
+	Monter
+	signal de franchissement de palier	Cabine en 4
+	signal de franchissement de palier	Cabine en 5
+	
+	
+5-----------------------------------		Cabine en 0
+//Utilisateur extérieur	étage 6
+	Appel 6D ---------------------- 	Utilisateur 1
+	Allumer bouton 6D
+	Monter
+	signal de franchissement de palier	Cabine en 1
+	signal de franchissement de palier	Cabine en 2
+	signal de franchissement de palier	Cabine en 3
+	signal de franchissement de palier	Cabine en 4
+	signal de franchissement de palier	Cabine en 5
+	signal de franchissement de palier	Cabine en 6
+	
+	Appel 0C							Utilisateur 1
+	Descendre
+	signal de franchissement de palier	Cabine en 5
+	signal de franchissement de palier	Cabine en 4
+	signal de franchissement de palier	Cabine en 3
+	signal de franchissement de palier	Cabine en 2
+	signal de franchissement de palier	Cabine en 1
+	signal de franchissement de palier	Cabine en 0
+	
+
+6-----------------------------------		Cabine en 6
+//Utilisateur extérieur	étage 0
+	Appel 0M ---------------------- 	Utilisateur 1
+	Allumer bouton 6D
+	Descendre
+	signal de franchissement de palier	Cabine en 1
+	signal de franchissement de palier	Cabine en 2
+	signal de franchissement de palier	Cabine en 3
+	signal de franchissement de palier	Cabine en 4
+	signal de franchissement de palier	Cabine en 5
+	signal de franchissement de palier	Cabine en 6
+	
+	Appel 0C							Utilisateur 1
+	Descendre
+	signal de franchissement de palier	Cabine en 5
+	signal de franchissement de palier	Cabine en 4
+	signal de franchissement de palier	Cabine en 3
+	signal de franchissement de palier	Cabine en 2
+	signal de franchissement de palier	Cabine en 1
+	signal de franchissement de palier	Cabine en 0
+	
+7-----------------------------------		Cabine en 5
+//Utilisateur extérieur	étage 0
+	Appel 3M ---------------------- 	Utilisateur 1
+	Allumer bouton 3M
+	Descendre
+	signal de franchissement de palier	Cabine en 4
+	signal de franchissement de palier	Cabine en 3
+	
+	Appel 5C							Utilisateur 1
+	Monter
+	signal de franchissement de palier	Cabine en 4
+	signal de franchissement de palier	Cabine en 5
+	
+	
+8-----------------------------------		Cabine en 3
+//Utilisateur extérieur	étage 0
+	Appel 5D ---------------------- 	Utilisateur 1
+	Allumer bouton 5D
+	Monter
+	signal de franchissement de palier	Cabine en 4
+	signal de franchissement de palier	Cabine en 5
+	
+	Appel 3C							Utilisateur 1
+	Descendre
+	signal de franchissement de palier	Cabine en 4
+	signal de franchissement de palier	Cabine en 3
